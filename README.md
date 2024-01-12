@@ -4,6 +4,7 @@ Welcome to the shell scripts repository.
 #Requirements: Bash
 
 #Setup
+
 Let's kick things off with these easy steps:
 1. Clone the Repository:
    Open your terminal and use the following command to clone the repository to your local machine:
