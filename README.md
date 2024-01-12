@@ -1,7 +1,9 @@
 # ShellScripts
 Welcome to the shell scripts repository.
 
-#Requirements: Bash
+#Requirements
+
+Bash
 
 #Setup
 
