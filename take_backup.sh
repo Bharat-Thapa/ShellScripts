@@ -1,10 +1,10 @@
 #!/bin/bash
 
-src=/home/ubuntu/devops/ShellScripts
-tgt=/home/ubuntu/devops/backup_folder
+read -p "Enter the source directory: " src
+read -p "Enter the target directory: " tgt
+
 filename=$(date +'%d-%m-%Y-%H-%M-%S').tar.gz
 
-echo "backup started for $filename"
-tar -cvf $tgt/$filename $src
-echo "backup completed"
-
+echo "Backup started for $filename"
+tar -cvf "$tgt/$filename" "$src"
+echo "Backup completed"
