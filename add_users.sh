@@ -11,5 +11,5 @@ done
 
 echo "Users added successfully"
 
-sudo cat /etc/passwd | grep user*
+sudo cat /etc/passwd
 
